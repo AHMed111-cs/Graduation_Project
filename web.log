@@ -1,0 +1,104 @@
+
+> naqb@0.1.0 web
+> npm run dev -w @naqb/web
+
+
+> @naqb/web@0.1.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m4596[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m23:55:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:55:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:55:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:55:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:55:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:55:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:55:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:55:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:55:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:55:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:55:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:55:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:55:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:55:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:56:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ui.tsx, /src/index.css[22m
+[2m23:56:29[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/components/ui.tsx[22m Could not Fast Refresh ("KINDS" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m23:56:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css, /src/pages/Users.tsx, /src/pages/Dashboard.tsx, /src/pages/Projects.tsx, /src/pages/Project.tsx[22m
+[2m23:56:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ui.tsx, /src/index.css[22m
+[2m23:56:35[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/components/ui.tsx[22m Could not Fast Refresh ("KINDS" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m23:56:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css, /src/pages/Users.tsx, /src/pages/Dashboard.tsx, /src/pages/Projects.tsx, /src/pages/Project.tsx[22m
+[2m23:58:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:58:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:58:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:58:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:58:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:58:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:58:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:58:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:58:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:58:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:58:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:58:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:58:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m23:58:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m00:06:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:15:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:15:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:15:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:15:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:15:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:15:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:15:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:15:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:15:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:15:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:15:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:15:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:15:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:15:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:22:45[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mC:/Users/ahmed/Documents/Graduation Project/packages/shared/dist/types.js[22m
+[2m01:22:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:22:46[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mC:/Users/ahmed/Documents/Graduation Project/packages/shared/dist/parsers/util.js[22m
+[2m01:22:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:22:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:22:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:22:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:22:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:22:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:22:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:22:46[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mC:/Users/ahmed/Documents/Graduation Project/packages/shared/dist/parsers/xssProbe.js[22m
+[2m01:22:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:22:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:22:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:25:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:25:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:25:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:25:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:25:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:25:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:25:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:25:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:25:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:25:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:25:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:25:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:25:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m
+[2m01:25:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Project.tsx[22m

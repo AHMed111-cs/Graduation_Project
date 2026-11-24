@@ -1,0 +1,14 @@
+{
+  "name": "@naqb/xss-probe-native",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Headless-browser XSS detector. Runs directly on the host (no Docker) to avoid the container hardening issues (read-only root breaks Chrome's crashpad) that made the Dockerised version unreliable on this machine.",
+  "scripts": {
+    "detect": "node detect.mjs",
+    "test": "node --test test.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.11.1"
+  }
+}

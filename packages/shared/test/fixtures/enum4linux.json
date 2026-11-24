@@ -1,0 +1,5 @@
+{"target":{"host":"10.10.0.7"},"os_info":{"os":"Windows 6.1","server_type":"Samba 4.9"},
+"users":{"1000":{"username":"alice","name":"Alice A","description":"tester"}},
+"groups":{"513":{"groupname":"Domain Users"}},
+"policy":{"min_length":7},
+"shares":{"public":{"comment":"Public share","type":"Disk","access":{"mapping":"ok","listing":"ok","writing":"denied"}},"IPC$":{"comment":"IPC Service","type":"IPC","access":{"mapping":"ok","listing":"denied","writing":"N/A"}}}}

@@ -1,0 +1,12 @@
+{
+  "name": "naqb",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["packages/*", "apps/*", "native-tools/*"],
+  "scripts": {
+    "test": "npm run test -w @naqb/shared",
+    "build:shared": "npm run build -w @naqb/shared",
+    "worker": "npm run start -w @naqb/worker",
+    "web": "npm run dev -w @naqb/web"
+  }
+}

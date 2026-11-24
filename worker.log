@@ -1,0 +1,4 @@
+NAQB worker started
+job 76d5242a-e71b-45fe-9550-df0755fd9410 xss-probe http://127.0.0.1:3001: completed, 2 results
+job a705ad73-368d-466c-8467-076739c15608 nmap 10.10.0.5: completed, 3 results
+job 38deb746-add5-4c77-9907-f29f07b1b879 gobuster http://10.10.0.5:3000: completed, 11 results

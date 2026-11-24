@@ -1,0 +1,17 @@
+# Run the worker on a DEDICATED LAB MACHINE only: it needs the Docker socket, which is root on the host.
+# Create the lab-only network first (internal = no route to the internet):
+#   docker network create --internal naqb-lab
+# Then attach your lab targets (Juice Shop, crAPI, lab VMs) to it.
+services:
+  worker:
+    image: node:22-alpine
+    working_dir: /app
+    command: sh -c "apk add --no-cache docker-cli && npm install --omit=dev && npm run build:shared && node apps/worker/src/index.js"
+    env_file: .env
+    environment:
+      NAQB_LAB_NETWORK: naqb-lab
+      NAQB_WORDLIST_DIR: ${NAQB_WORDLIST_DIR:-}
+    volumes:
+      - .:/app
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped

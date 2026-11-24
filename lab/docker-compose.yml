@@ -1,0 +1,31 @@
+# Isolated lab. "internal" = no route to the internet, so scanners can only reach these targets.
+#   docker compose -f lab/docker-compose.yml up -d
+# Fixed IPs: Juice Shop 10.10.0.5 (web :3000) · vsftpd 10.10.0.6 (anonymous FTP) · Samba 10.10.0.7
+name: naqb-lab-targets
+networks:
+  naqb-lab:
+    name: naqb-lab
+    internal: true # no route out: scanners can only reach these targets, nothing else
+    ipam: { config: [{ subnet: 10.10.0.0/24 }] }
+  # NOT internal, and used by nothing except this one loopback publish below. Docker refuses to
+  # publish a host port for a container whose only network is internal (correctly — that would
+  # defeat the point of "internal"), so Juice Shop gets this second network purely so a host-native
+  # tool (e.g. the XSS prober) can reach it. It stays on naqb-lab too, unchanged, for scanner traffic.
+  naqb-host-bridge:
+    name: naqb-host-bridge
+services:
+  juice-shop:
+    image: bkimminich/juice-shop
+    restart: unless-stopped
+    mem_limit: 1g
+    networks: { naqb-lab: { ipv4_address: 10.10.0.5 }, naqb-host-bridge: {} }
+    # Loopback-only: never reachable from outside this machine.
+    ports: ["127.0.0.1:3001:3000"]
+  ftp:
+    image: fauria/vsftpd
+    environment: { FTP_USER: lab, FTP_PASS: lab, PASV_ADDRESS: 10.10.0.6, PASV_MIN_PORT: 21100, PASV_MAX_PORT: 21110 }
+    networks: { naqb-lab: { ipv4_address: 10.10.0.6 } }
+  samba:
+    image: dperson/samba
+    command: -u "lab;lab" -s "public;/share;yes;no;yes" -s "private;/private;yes;no;no;lab"
+    networks: { naqb-lab: { ipv4_address: 10.10.0.7 } }
